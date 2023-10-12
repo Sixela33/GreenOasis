@@ -35,22 +35,22 @@ const Faq = () => {
 
 const faqdata = [
   {
-    question: "Is this template completely free to use?",
-    answer: "Yes, this template is completely free to use.",
+    question: "What is the standard delivery time for your products?",
+    answer: "Our standard delivery time is 5 to 7 business days, but we offer express shipping options for faster deliveries if you prefer.",
   },
   {
-    question: "Can I use it in a commercial project?",
-    answer: "Yes, this you can.",
+    question: "How can I contact your customer service?",
+    answer: "You can reach our customer service by calling our toll-free number at 1-800-123-4567 or by sending an email to support@example.com. We are available Monday through Friday from 9:00 a.m. to 5:00 p.m.",
   },
   {
-    question: "What is your refund policy? ",
+    question: "What are the accepted payment methods on your online platform? ",
     answer:
-      "If you're unhappy with your purchase for any reason, email us within 90 days and we'll refund you in full, no questions asked.",
+      "We accept major credit cards such as Visa, MasterCard, and American Express. We also offer payment options through PayPal and bank transfers.",
   },
   {
-    question: "Do you offer technical support? ",
+    question: "Do you offer warranties on your products?",
     answer:
-      "No, we don't offer technical support for free downloads. Please purchase a support plan to get 6 months of support.",
+      "Yes, we offer a 100% satisfaction guarantee. If you are not satisfied with your purchase, you can return the product within 30 days, and we will refund the full purchase price. Additionally, many of our products also come with manufacturer-specific warranties for added peace of mind.",
   },
 ];
 

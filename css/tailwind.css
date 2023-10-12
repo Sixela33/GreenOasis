@@ -6,5 +6,11 @@
   html,
   body {
     @apply dark:bg-trueGray-900;
+    /* background: radial-gradient(#9832ff, transparent); */
   }
+}
+
+.hero-height {
+  height: calc(100vh - 100px);
+  min-height: 600px;
 }

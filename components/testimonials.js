@@ -9,12 +9,11 @@ import userThreeImg from "../public/img/user3.jpg";
 const Testimonials  = () => {
   return (
     <Container>
-      <div className="grid gap-10 lg:grid-cols-2 xl:grid-cols-3">
+      <div className="grid gap-10 lg:grid-cols-2 xl:grid-cols-3 xl:px-8">
         <div className="lg:col-span-2 xl:col-auto">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal ">
-              Share a real <Mark>testimonial</Mark>
-              that hits some of your benefits from one of your popular customer.
+            I couldn't be happier with the exceptional service provided by Strive. Their team went above and beyond to meet my needs and exceeded my expectations. I highly recommend them to anyone <Mark>seeking top-notch solutions!</Mark>
             </p>
 
             <Avatar
@@ -27,8 +26,7 @@ const Testimonials  = () => {
         <div className="">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal ">
-              Make sure you only pick the <Mark>right sentence</Mark>
-              to keep it short and simple.
+              I've been a loyal customer of Strive for years, and they never disappoint. Their dedication to quality and their <Mark>commitment to customer satisfaction</Mark> are unmatched. I trust them for all my service needs.
             </p>
 
             <Avatar
@@ -41,8 +39,7 @@ const Testimonials  = () => {
         <div className="">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal ">
-              This is an <Mark>awesome</Mark> landing page template I&apos;ve seen. I
-              would use this for anything.
+            Choosing Strive was one of the best decisions I've made for my business. Their expertise and support have been invaluable in <Mark>helping us achieve our goals</Mark>. Thank you for being an integral part of our success!
             </p>
 
             <Avatar

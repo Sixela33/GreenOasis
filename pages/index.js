@@ -1,12 +1,10 @@
-import Head from "next/head";
+// import Head from "next/head";
 import Hero from "../components/hero";
-import Navbar from "../components/navbar";
 import SectionTitle from "../components/sectionTitle";
 
 import { benefitOne, benefitTwo } from "../components/data";
 import Video from "../components/video";
 import Benefits from "../components/benefits";
-import Footer from "../components/footer";
 import Testimonials from "../components/testimonials";
 import Cta from "../components/cta";
 import Faq from "../components/faq";
@@ -15,51 +13,56 @@ import PopupWidget from "../components/popupWidget";
 const Home = () => {
   return (
     <>
-      <Head>
-        <title>Nextly - Free Nextjs & TailwindCSS Landing Page Template</title>
-        <meta
-          name="description"
-          content="Nextly is a free landing page template built with next.js & Tailwind CSS"
-        />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <Navbar />
       <Hero />
       <SectionTitle
-        pretitle="Nextly Benefits"
-        title=" Why should you use this landing page">
-        Nextly is a free landing page & marketing website template for startups
-        and indie projects. Its built with Next.js & TailwindCSS. And its
-        completely open-source.
+        pretitle="Unveiling the Cosmos"
+        title="Embark on a Journey to the Stars"
+      >
+        Nullam euismod, velit at consectetur luctus, tortor elit bibendum massa,
+        vel euismod ante orci eget erat. Nullam non nulla nec dui eleifend
+        tincidunt. Suspendisse potenti. Sed posuere, libero sed vehicula
+        aliquam, elit nulla eleifend massa, nec vestibulum arcu nulla eget
+        justo. Donec auctor tellus eu turpis interdum, id fermentum sapien
+        rhoncus
       </SectionTitle>
       <Benefits data={benefitOne} />
       <Benefits imgPos="right" data={benefitTwo} />
+      {/* <Benefits data={spaceExplorationBenefits} /> */}
       <SectionTitle
-        pretitle="Watch a video"
-        title="Learn how to fullfil your needs">
-        This section is to highlight a promo or demo video of your product.
-        Analysts says a landing page with video has 3% more conversion rate. So,
-        don&apos;t forget to add one. Just like this.
+        pretitle="Ignite Curiosity"
+        title="Witness Spectacular Launches"
+      >
+        Nullam euismod, velit at consectetur luctus, tortor elit bibendum massa,
+        vel euismod ante orci eget erat. Nullam non nulla nec dui eleifend
+        tincidunt. Suspendisse potenti. Sed posuere, libero sed vehicula
+        aliquam, elit nulla eleifend massa, nec vestibulum arcu nulla eget
+        justo. Donec auctor tellus eu turpis interdum, id fermentum sapien
+        rhoncus
       </SectionTitle>
       <Video />
       <SectionTitle
-        pretitle="Testimonials"
-        title="Here's what our customers said">
-        Testimonails is a great way to increase the brand trust and awareness.
-        Use this section to highlight your popular customers.
+        pretitle="The Customers Perspective"
+        title="Captivating Testimonials"
+      >
+        Prepare to be inspired by the voices of our satisfied clients. These
+        captivating testimonials speak volumes about the impact of our services
+        on their lives and businesses. We take immense pride in the success
+        stories and transformations our clients have experienced, and we're
+        thrilled to share their journeys with you. Discover firsthand how Strive
+        has made a difference in the lives of those we've had the privilege to
+        serve.
       </SectionTitle>
       <Testimonials />
-      <SectionTitle pretitle="FAQ" title="Frequently Asked Questions">
-        Answer your customers possible questions here, it will increase the
-        conversion rate as well as support or chat requests.
+      <SectionTitle pretitle="Curious Minds Want to Know" title="Explore FAQs">
+        Explore our FAQs to find answers to common questions and gain valuable
+        insights. We're here to make your journey smoother and more informed.
+        Discover the knowledge you need with our comprehensive FAQ section.
       </SectionTitle>
       <Faq />
-      <Cta />
-      <Footer />
+      {/* <Cta /> */}
       <PopupWidget />
     </>
   );
-}
+};
 
 export default Home;
