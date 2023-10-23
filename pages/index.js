@@ -27,7 +27,6 @@ const Home = () => {
       </SectionTitle>
       <Benefits data={benefitOne} />
       <Benefits imgPos="right" data={benefitTwo} />
-      {/* <Benefits data={spaceExplorationBenefits} /> */}
       <SectionTitle
         pretitle="Ignite Curiosity"
         title="Witness Spectacular Launches"
