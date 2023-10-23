@@ -5,17 +5,18 @@ import Container from "./container";
 
 export default function Footer() {
   const navigation = [
-    "Product",
-    "Features",
-    "Pricing",
-    "Company",
-    "Blog",
+    { name: "Home", link: "./" },
+    { name: "Features", link: "/features" },
+    { name: "Pricing", link: "/pricing" },
+    { name: "Company", link: "/company" },
+    { name: "Blog", link: "/blog" },
   ];
   const legal = ["Terms", "Privacy", "Legal"];
+
   return (
     <div className="relative">
       <Container>
-        <div className="xl:px-8 grid max-w-screen-xl grid-cols-1 gap-10 pt-10 mx-auto border-t border-gray-100 dark:border-trueGray-700 lg:grid-cols-5">
+        <div className="xl:px-8 grid max-w-screen-xl grid-cols-2 gap-10 pt-10 mx-auto border-t border-gray-100 dark:border-trueGray-700 lg:grid-cols-5">
           <div className="lg:col-span-2">
             <div>
               {" "}
@@ -25,37 +26,23 @@ export default function Footer() {
                       alt="N"
                       width="32"
                       height="32"
-                      className="w-8"
+                      className="w-10"
                     />
-                  <span>Strive</span>
+                  <span className='text-3xl'>Strive</span>
               </Link>
             </div>
 
             <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec augue a ante placerat laoreet. Phasellus sed eros in libero venenatis sodales.
             </div>
-{/* 
-            <div className="mt-5">
-              <a
-                href="https://vercel.com/?utm_source=web3templates&utm_campaign=oss"
-                target="_blank"
-                rel="noopener"
-                className="relative block w-44">
-                <Image
-                  src="/img/vercel.svg"
-                  alt="Powered by Vercel"
-                  width="212"
-                  height="44"
-                />
-              </a>
-            </div> */}
+
           </div>
 
           <div>
             <div className="flex flex-wrap w-full -mt-2 -ml-3 lg:ml-0">
               {navigation.map((item, index) => (
-                <Link key={index} href="/" className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700">                 
-                    {item}
+                <Link key={index} href={item.link} className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700">                 
+                    {item.name}
                 </Link>
               ))}
             </div>
@@ -110,16 +97,19 @@ export default function Footer() {
             href="https://www.linkedin.com/in/camilasosa-fullstack/"
             target="_blank"
             rel="noopener"
-            class='underline underline-offset-2 hover:text-indigo-500'>
+            class='underline underline-offset-2 hover:text-indigo-500'
+          >
             Camila Sosa.
           </a>{" "}
-          {/* Illustrations from{" "}
+          Illustrations from{" "}
           <a
-            href="https://www.glazestock.com/"
+            href="https://dribbble.com/alzea"
             target="_blank"
-            rel="noopener ">
-            Glazestock
-          </a> */}
+            rel="noopener "
+            class='underline underline-offset-2 hover:text-indigo-500'
+          >
+            Alzea Arafat
+          </a>
         </div>
       </Container>
     </div>
@@ -195,7 +185,6 @@ const Backlink = () => {
         />
       </svg>
 
-      <span>Web3Templates</span>
     </a>
   );
 };
