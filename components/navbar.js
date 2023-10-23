@@ -28,10 +28,10 @@ const Navbar = () => {
                         alt="N"
                         width="32"
                         height="32"
-                        className="w-8"
+                        className="w-10"
                       />
                     </span>
-                    <span>Strive</span>
+                    <span className="text-3xl">Strive</span>
                   </span>
                 </Link>
 
@@ -66,7 +66,7 @@ const Navbar = () => {
                             {item.name}
                         </Link>
                       ))}
-                      <Link href="/" className="w-full px-4 py-2 text-center text-white bg-indigo-600 rounded-md lg:ml-5">         
+                      <Link onClick={() => close()} href="/" className="w-full px-4 py-2 text-center text-white bg-indigo-600 rounded-md lg:ml-5">         
                           Get Started
                       </Link>
                     </>
