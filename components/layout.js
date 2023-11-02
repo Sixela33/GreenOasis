@@ -6,7 +6,7 @@ export default function Layout({ children }) {
   return (
     <>
       <Head>
-        <title>Strive</title>
+        <title>Green Oasis </title>
         <meta name="description" content="Strive" />
         <link rel="icon" href="/img/Saly-44.png" />
       </Head>
