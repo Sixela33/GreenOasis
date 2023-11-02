@@ -6,8 +6,8 @@ import { Disclosure } from "@headlessui/react";
 const Navbar = () => {
   const navigation = [
     { name: "Home", link: "./" },
-    { name: "Features", link: "/features" },
-    { name: "Pricing", link: "/pricing" },
+    { name: "Members", link: "/features" },
+    { name: "Tokens", link: "/pricing" },
     { name: "Company", link: "/company" },
     { name: "Blog", link: "/blog" },
   ];
@@ -21,7 +21,7 @@ const Navbar = () => {
             <>
               <div className="flex flex-wrap items-center justify-between w-full lg:w-auto">
                 <Link href="/">
-                  <span className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-green-300 ">
+                  <span className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-green-400  ">
                     <span>
                       <Image
                         src="/img/Saly-44.png"

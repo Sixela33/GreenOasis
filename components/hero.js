@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Container from "./container";
-import heroImg from "../public/img/Saly-18.png";
+import heroImg from "../public/img/Saly-44.png";
 
 const Hero = () => {
   return (
@@ -8,14 +8,11 @@ const Hero = () => {
       <Container className="flex flex-col lg:flex-row xl:px-8 hero-height justify-between">
         <div className="flex md:items-center w-full lg:w-45% p-2 pb-8">
           <div className="mb-8">
-            <h1 className="text-4xl sm:text-5xl font-bold leading-snug tracking-tight text-gray-800 lg:leading-tight xl:text-5xl xl:leading-tight dark:text-white">
-              Your Journey Begins Here.
+            <h1 className="text-4xl sm:text-5xl font-bold leading-snug tracking-tight text-gray-800 lg:leading-tight xl:text-5xl xl:leading-tight dark:text-green-200">
+              Your Trusted Cannabis Club Is Here.
             </h1>
             <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-1xl dark:text-gray-300">
-              At Strive, our passion is to provide exceptional solutions
-              that transform your experience. With decades of experience and a
-              dedicated team, we are ready to lead the way to your goals. We
-              invite you to discover a world of possibilities with us.
+             
             </p>
 
             <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
