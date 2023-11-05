@@ -3,7 +3,7 @@
 
 
 
-### 1\. Install bun 
+### 1\.Install bun 
 
 ```
 yarn install bun 
